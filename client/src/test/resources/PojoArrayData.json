@@ -1,0 +1,70 @@
+[
+{
+ "name":"Optimus Prime",
+ "password":123456,
+ "accountNumber":897065789541,
+ "amount":50000,
+ "areaCode":[{ "areaCode" :"area1"},
+  			 { "areaCode" :"area2"}],
+ "bank":{
+ 		"name" : "BOA",
+ 		"type" : "Savings",
+ 		"address" : {
+ 					"street":"1234 Some St"
+ 				}
+ 		},
+ "phoneNumber":"908765781",
+ "preintTest":10
+},
+{
+ "name":"Megatron",
+ "password":123456,
+ "accountNumber":93057384939,
+ "amount":80000,
+ "areaCode":[{ "areaCode" :"area3"},
+  			 { "areaCode" :"area4"}],
+ "bank":{
+ 		"name" : "DBAG",
+ 		"type" : "Current",
+ 		"address" : {
+ 					"street":"1234 dark St"
+ 				}
+ 		},
+ "phoneNumber":"908343781",
+ "preintTest":100
+},
+{
+ "name":"Alonso",
+ "password":123456,
+ "accountNumber":897065789541,
+ "amount":50000,
+ "areaCode":[{ "areaCode" :"area5"},
+  			 { "areaCode" :"area6"}],
+ "bank":{
+ 		"name" : "Wells",
+ 		"type" : "Savings",
+ 		"address" : {
+ 					"street":"1234 alonso St"
+ 				}
+ 		},
+ "phoneNumber":"908765781",
+ "preintTest":10
+},
+{
+ "name":"Vettel",
+ "password":123456,
+ "accountNumber":93057384939,
+ "amount":80000,
+ "areaCode":[{ "areaCode" :"area7"},
+  			 { "areaCode" :"area8"}],
+ "bank":{
+ 		"name" : "JPMC",
+ 		"type" : "Current",
+ 		"address" : {
+ 					"street":"1234 dark St"
+ 				}
+ 		},
+ "phoneNumber":"908343781",
+ "preintTest":100
+}
+]
