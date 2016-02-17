@@ -1,11 +1,7 @@
 language: java
 sudo: false
-body='{
-"request": {
-  "branch":"sample",
-  "message":"Triggering docker selion travis from SeLion"
-}}'
-curl -s -X POST -H "Content-Type: application/json" -H "Accept: application/json" -H "Travis-API-Version: 3" -H "Authorization: token 9Nt4p4g7rt36Z2CdU0Fbbg" -d "$body" https://api.travis-ci.org/repo/ysecaran%2Fdocker-selion/requests
+
+curl -s -X POST -H "Content-Type: application/json" -H "Accept: application/json" -H "Travis-API-Version: 3" -H "Authorization: token 9Nt4p4g7rt36Z2CdU0Fbbg" -d "{ \"request\": { \"branch\":\"sample\", \"message\":\"Triggering docker selion travis from SeLion\"}}" https://api.travis-ci.org/repo/ysecaran%2Fdocker-selion/requests
 jdk:
   - oraclejdk7
 script:
