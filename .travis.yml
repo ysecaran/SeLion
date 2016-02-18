@@ -5,7 +5,7 @@ jdk:
 script:
   - sh -e utilities/run-travis-ci-tests.sh
 after_success:
-  - sh -c curl -s -X POST -H "Content-Type: application/json" -H "Accept: application/json" -H "Travis-API-Version: 3" -H "Authorization: token 9Nt4p4g7rt36Z2CdU0Fbbg" -d '{ "request": { "branch":"sample", "message":"Triggering docker selion travis from SeLion"}}' https://api.travis-ci.org/repo/ysecaran%2Fdocker-selion/requests
+  - sh -c "curl -s -X POST -H "Content-Type: application/json" -H "Accept: application/json" -H "Travis-API-Version: 3" -H "Authorization: token 9Nt4p4g7rt36Z2CdU0Fbbg" -d '{ "request": { "branch":"sample", "message":"Triggering docker selion travis from SeLion"}}' https://api.travis-ci.org/repo/ysecaran%2Fdocker-selion/requests"
 addons:
   sauce_connect: true
 notifications:
